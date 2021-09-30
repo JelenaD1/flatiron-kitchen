@@ -23,3 +23,8 @@ end
 group :test do
   gem 'rspec-collection_matchers'
 end
+
+group :development, :test do
+ gem 'rubocop', require: false
+ gem 'rubocop-rails', require: false
+end 
